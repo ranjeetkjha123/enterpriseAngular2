@@ -1,0 +1,19 @@
+<div class="wrapper">
+
+  <div class="col-xs-12 col-md-12">
+     <div class="statustxt" >
+  	 <img [src]="BACKSTATUS" id="statusbackimg" />
+	 <div class="progresstxt" >
+	 <ux-progress-bar class="m-b-md" [value]="value" max="100">
+    <span>{{ value }}%</span>
+    </ux-progress-bar>
+
+     <button type="button" class="btn btn-primary" (click)="randomize()">Random</button>
+     </div>
+	 </div>
+  	<!-- <img src="ferret_background.png"  width="100%" height="660px">  -->
+ 
+  </div>
+ 
+
+</div>
